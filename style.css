@@ -1,33 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 20px;
-}
-
-h1 {
-    color: #333;
-}
-
-p {
-    color: #666;
-}
-
-nav {
-    background-color: #333;
-    padding: 10px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
+/* Styling utama */
 body {
     background: linear-gradient(135deg, #ff9a9e, #fad0c4);
     font-family: Arial, sans-serif;
@@ -35,6 +6,7 @@ body {
     padding: 20px;
 }
 
+/* Styling untuk judul dan paragraf */
 h1 {
     color: #fff;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -42,4 +14,27 @@ h1 {
 
 p {
     color: white;
+}
+
+/* Styling untuk navigasi */
+nav {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Styling link navigasi */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Efek hover untuk link navigasi */
+nav a:hover {
+    text-decoration: underline;
+    color: yellow;
 }
