@@ -27,3 +27,19 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+body {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    color: white;
+}
